@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "945675197415",
+    "firebase_url": "https://travlo-c6587.firebaseio.com",
+    "project_id": "travlo-c6587",
+    "storage_bucket": "travlo-c6587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945675197415:android:7f59545a83b4fcad",
+        "android_client_info": {
+          "package_name": "com.example.travlo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945675197415-ks6g3cral1u32v4s72pa3i8fi7bc8j3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travlo",
+            "certificate_hash": "bee1123f10bdf67d94d6285650f99fc497dfd5ad"
+          }
+        },
+        {
+          "client_id": "945675197415-09ssodj4v0gb8po0tskekdttpmlfcago.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMv9sR9Q1htdCyUF3peDOu13q62xIJPaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945675197415-09ssodj4v0gb8po0tskekdttpmlfcago.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
