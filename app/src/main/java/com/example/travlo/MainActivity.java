@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
             editor.apply();
             finish();
         }
+        else {
+            Intent i = new Intent(MainActivity.this,NavigationActivity.class);
+            startActivity(i);
+            finish();
+        }
 
     }
 

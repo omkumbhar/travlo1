@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="235dp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/SearchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/back"
+        android:layout_marginTop="-25dp"
+        android:background ="@drawable/edit_text_round"
+        android:textAlignment="center"
+        android:paddingEnd="20dp"
+        android:text="Search places here"/>
+
+</RelativeLayout>
