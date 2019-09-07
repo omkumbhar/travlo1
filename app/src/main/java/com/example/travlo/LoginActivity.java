@@ -10,8 +10,8 @@ import android.widget.Toast;
 import com.google.android.gms.common.SignInButton;
 
 public class LoginActivity extends AppCompatActivity {
-    SignInButton gBtn;
-    Button fBtn;
+    private SignInButton gBtn;
+    private Button fBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
